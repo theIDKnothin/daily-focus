@@ -1,0 +1,10 @@
+{
+  "name": "daily-focus-workspace",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p daily-focus/tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.0"
+  }
+}

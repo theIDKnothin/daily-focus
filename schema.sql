@@ -1,0 +1,4 @@
+-- Daily Focus: no server-side relational database in v1.
+-- Persistence is browser localStorage only (see ARCHITECTURE.md).
+-- Logical client-side model: one string field "goal" keyed in localStorage.
+-- No tables, foreign keys, or indexes apply to this static deployment.
