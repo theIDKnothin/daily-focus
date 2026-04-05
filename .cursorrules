@@ -1,8 +1,0 @@
-# Daily Focus — agent rules
-
-1. **Stack:** HTML, CSS, and vanilla JavaScript in the browser; TypeScript is allowed for sources that compile to JS (`npm run build`). Do not add React, Vue, or other UI frameworks unless BRIEF.md changes.
-2. **Persistence:** Store the daily goal in `localStorage` using `DAILY_FOCUS_STORAGE_KEY` from `daily-focus/backend/persistGoal.ts` (same key in emitted JS); do not add a server DB for v1 without an updated brief.
-3. **Files:** Follow `ARCHITECTURE.md` for `daily-focus/` (`index.html`, `styles.css`, `app.ts` → `app.js`, `components/`, `backend/`). Edit `.ts` sources and rebuild rather than hand-editing emitted `.js`.
-4. **Naming:** Use kebab-case for CSS classes, camelCase for JS identifiers; match existing patterns in those files.
-5. **Scope:** Preserve the single-page flow: one goal, save button, display below; do not add auth, APIs, or multi-user features unless BRIEF.md changes.
-6. **Quality:** Match the brief’s UX copy ("Daily Focus", "Save Goal") unless the product owner changes BRIEF.md.
